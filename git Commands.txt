@@ -1,0 +1,18 @@
+echo "# Hello" >> README.md
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vineethy727/Hello.git
+git push -u origin main
+
+third line give some errors it can be controlsed by
+git--config--global--
+
+git init
+git add .
+git commit -m " Hello projectfirst commit"
+git branch -M main
+git remote add origin https://github.com/vineethy727/Hello.git
+git push -u origin main
